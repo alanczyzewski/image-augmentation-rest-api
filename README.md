@@ -1,12 +1,19 @@
 # Image augmentation REST API
+
+
 ## REST API with Django REST Framework
+
+
 #### Run
+
 To run this project go to imageAugmentationProject/ directory and run the following command:
 > python manage.py runserver
 
 This command would start the server at http://127.0.0.1:8000/
 
+
 #### Endpoints
+
 Each endpoint takes JSON Object as the request body. The object have to contain pair: "image" and plain text image encoded with base64 algorithm (allowable image formats: ".jpg", ".png", ".bmp"). In the response body, each endpoint returns JSON Object with an augmented image.
 
 Example body (request or response):
@@ -62,7 +69,9 @@ Example request:
 >GET localhost:8000/augmentation/negative HTTP/1.1
 
 ## Testing script
+
 The script sends a request with an encoded image file and saves received augmented image file. The script is located at testing_script/get_augmentation.py
+
 #### Run
 Usage of the script:
 > ./get_augmentation.py [options]
