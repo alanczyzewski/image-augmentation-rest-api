@@ -1,6 +1,6 @@
 # Image augmentation REST API
 ## REST API with Django REST Framework
-####Run
+#### Run
 To run this project go to imageAugmentationProject/ directory and run the following command:
 > python manage.py runserver
 
@@ -63,7 +63,7 @@ Example request:
 
 ## Testing script
 The script sends a request with an encoded image file and saves received augmented image file. The script is located at testing_script/get_augmentation.py
-####Run
+#### Run
 Usage of the script:
 > ./get_augmentation.py [options]
 
