@@ -1,5 +1,12 @@
 # Image augmentation REST API
 
+REST service in Python (Django). The service accepts an image in the request body and responds with an augmented image.
+
+Augmentations:
+* resize
+* crop
+* rotate
+* negative
 
 ## REST API with Django REST Framework
 
